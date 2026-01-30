@@ -14,7 +14,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # ==================== ИНИЦИАЛИЗАЦИЯ БОТА ====================
-bot = Bot(token=BOT_TOKEN, parse_mode='HTML')
+bot = Bot(token=BOT_TOKEN)
 storage = MemoryStorage()
 dp = Dispatcher(storage=storage)
 
